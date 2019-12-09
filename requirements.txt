@@ -1,0 +1,11 @@
+django==3.0.7
+mysqlclient
+djangorestframework
+markdown
+django-filter
+djoser
+pylint
+django-cors-headers
+djangorestframework-jwt
+celery
+redis
