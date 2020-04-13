@@ -1,0 +1,59 @@
+.login-row{
+    height: 90.7vh;
+    width: 99vw;
+    background-color: transparent;
+}
+
+.login-col{
+    background-color: transparent;
+    height: auto;
+}
+
+.coder-svg{
+    width: 100%;
+}
+
+.login-col-row{
+    width: 80%;
+    height: 100%;
+}
+
+.register-col-row{
+    width: 80%;
+    height: auto;
+}
+
+.register-col-row h4, .login-col-row h4{
+    font-family: defaultFont;
+}
+
+.input-row input {
+    background: rgba(241, 241, 241, 0.7);
+    width: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    color: #3E3E3E;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.input-row {
+    padding: 14px;
+}
+
+.primary-btn-row {
+    padding: 14px;
+}
+
+.primary-btn {
+    background-color: rgba(36, 41, 44, 0.9);
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    border-radius: 4px;
+    color: white;
+}
+
+.error {
+    color: red;
+}

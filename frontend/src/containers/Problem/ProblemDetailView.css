@@ -1,0 +1,30 @@
+.item {
+  position: relative;
+  width: 1000px;
+  text-align: left;
+  margin-left: 1%;
+  padding-left: 10px;
+}
+.item-1 {
+  position: relative;
+  float: right;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 1%;
+  margin-left: 7%;
+  margin-right: 1%;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 5px;
+  border: hidden;
+}
+.item-1 > .MySubmissions {
+  padding: 10px;
+}
+.item-1 > .MySubmissions:hover {
+  border: 1px solid black;
+}
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}

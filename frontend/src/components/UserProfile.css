@@ -1,0 +1,47 @@
+.user__profile {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.user__profile__image {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: transform 100ms ease-out;
+}
+.user__profile__image:hover {
+  transform: scale(1.08);
+}
+.user__profile__image > button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.user__profile__details {
+  padding: 30px;
+  padding-left: 30;
+  margin: auto;
+  transition: transform 100ms ease-out;
+}
+.user__profile__details:hover {
+  transform: scale(1.02);
+  border: 2px solid wheat;
+}
+.user__profile__problems_solved {
+  padding: 30px;
+  padding-left: 30;
+  max-width: fit-content;
+  margin: auto;
+  border: 2px solid #87c2fa;
+}
+.user-image {
+  width: 280px;
+  height: 280px;
+
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid wheat;
+  border-radius: 50%;
+}

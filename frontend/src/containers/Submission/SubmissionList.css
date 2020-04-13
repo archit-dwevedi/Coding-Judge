@@ -1,0 +1,18 @@
+.submissionList {
+  height: 100vh;
+  width: 100%;
+  background-color: #cdd9e4;
+  color: "white";
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.submissionList > h1 {
+  color: rgb(48, 44, 44);
+  text-align: center;
+}
+.footer {
+  margin-bottom: 2%;
+}
+.pagination {
+  color: #000000;
+}
